@@ -8,8 +8,8 @@
 :root {
 
 	/* Font Family */
-	--global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
-	--global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+	--global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Pallete Mozaic UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+	--global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Oswald UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
 
 	/* Font Size */
 	--global--font-size-base: 1.25rem;
@@ -29,7 +29,7 @@
 	--global--line-height-page-title: 1.1;
 
 	/* Headings */
-	--heading--font-family: var(--global--font-primary);
+	--heading--font-family: var(--global--font-Pallete-Mozaic);
 	--heading--font-size-h6: var(--global--font-size-xs);
 	--heading--font-size-h5: var(--global--font-size-sm);
 	--heading--font-size-h4: var(--global--font-size-lg);
@@ -81,7 +81,7 @@
 
 	/* Headings */
 	--global--color-primary-hover: var(--global--color-primary);
-	--global--color-background: var(--global--color-green);
+	--global--color-background: var(--global--color-Alice-Blue);
 
 	/* Mint, default body background */
 	--global--color-border: var(--global--color-primary);
