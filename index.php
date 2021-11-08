@@ -18,7 +18,7 @@ get_header(); ?>
 
 <?php if ( is_home() && ! is_front_page() && ! empty( single_post_title( '', false ) ) ) : ?>
 	<header class="page-header alignwide">
-		<h1 class="page-title"><?php single_post_title("Cat Programming" echo "Today is " . date("m/d/Y");); ?></h1>
+		<h1 class="page-title"><?php single_post_title(); ?></h1>
 	</header><!-- .page-header -->
 <?php endif; ?>
 
@@ -29,7 +29,7 @@ if ( have_posts() ) {
 	while ( have_posts() ) {
 		the_post();
 
-		get_template_part( 'assets/images/typing-cat-gif.gif', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
+		get_template_part( 'template-parts/content/content', get_theme_mod( 'display_excerpt_or_full_post', 'excerpt' ) );
 	}
 
 	// Previous/next page navigation.
@@ -38,7 +38,7 @@ if ( have_posts() ) {
 } else {
 
 	// If no content, include the "No posts found" template.
-	get_template_part( 'assets/images/typing-cat-gif.gif' );
+	get_template_part( 'template-parts/content/content-none' );
 
 }
 
